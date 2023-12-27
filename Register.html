@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Online Movie Ticket Booking System</title>
+		
+		<link rel="stylesheet" type="text/css"  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		
+		<!--register page styles and js-->
+		
+		<script src  = "JS/register.js"></script>
+		<link rel = "stylesheet" href = "Styles/register.css"/>
+                                                                                                                                                      
+		<style>
+				 body {
+			background-image: url("Images/African-stock-video-of-a-black-chef-with-healthy-salad-food-and-chalk-social-media-icons-background-1.jpg");
+			background-attachment:fixed;
+			background-repeat:no-repeat;
+			background-size:1380px 650px;
+			font-family:Arial,Helvitica,sans-serif;
+			animation:breath 8s linear infinite;
+			
+			
+	
+}
+</style>
+		
+	
+			  
+		
+	</head>
+	
+	<body>	
+		<div id="nav">
+
+			<div class="sidebar">
+			<img class="logo" src="Images/Untitled-1.png">
+			<a id="nav1" id="active" href="Action.html"><i class="fa fa-fw fa-food"></i>Action</a>
+			<a id="nav1" id="nav1 "href="Adventure.html"><i class="fa fa-fw fa-food"></i>Adventure</a>
+			<a id="nav1" href="Animated.html"><i class="fa fa-fw fa-food"></i>Animated</a>
+			<a id="nav1" href="Comedy.html"><i class="fa fa-fw fa-food"></i>Comedy</a>
+			
+		</div>
+													
+		<div>
+		<div class="navbar">
+			<a class="active1" id="active" href="Home.html"><i class="fa fa-fw fa-home"></i>Home</a>
+			<a class="active1" href="Contact.html"><i class="fa fa-fw fa-envelope"></i>Contact</a>
+			<a class="active1" href="About.html"><i class="fa fa-fw fa-user"></i>About</a>
+			<a class="active1" href="Service.html"><i class="fa fa-fw fa-wrench"></i>Services</a>
+		<div class="search-container">
+			<input type="text" placeholder="Search.." name="search">
+			<button type="submit"><i class="fa fa-search"></i></button>
+			<a href="Profile.html"><img class="profileI" src="Images/PngItem_786293.png"></a>
+		</div>	
+		</div>
+		</div>
+		<div id="content">
+		<br/><br/><br/><br/>
+		<hr/>
+		
+		</div>
+		</div>
+		
+		
+		<div class = "div" >
+	
+		<h1 class="font1">REGISTRATION FORM</h1>
+	
+
+	<form   onsubmit= "return password()" target="_self" method = "POST">
+		
+		<label for = "fname" class = "font2">First name</label><br>
+		<input type = "text" id="fname" name="fname"  placeholder="Enter first name"  style="width:600px" required><br><br>
+		
+		<label for = "lname"  class = "font2">Last name</label><br>
+		<input type = "text" id="lname" name="lname"  placeholder="Enter last name"   style="width:600px" required><br><br>
+		
+		<label for = "email"  class = "font2">Email</label><br>
+		<input type = "email" id="email" name="email"  placeholder="Abc123@gmail.com"   style="width:600px" pattern = "[a-zA-Z0-9]+@[a-z0-9]+\.[a-z0-9]{2,3}" required><br><br>
+		
+		<label for = "mobile"  class = "font2">Mobile number</label><br>
+		<input type = "tel" id="mobile" name="mobile"  placeholder="012-3456789"   style="width:600px" pattern = "[0-9]{10}" required><br><br>
+		
+		<label for = "gender" class = "font2">Gender</label><br>
+		<input type ="radio"  id="gender" name ="gender" checked>
+		<label for = "male"  class = "font2">Male <br></label>
+		<input type ="radio"  id="gender" name ="gender">
+		<label for = "female"  class = "font2">Female </label><br><br>
+		
+		<label for = "uname"  class = "font2">User name</label><br>
+		<input type = "text" id="uname" name="uname"  placeholder="Enter user name"   style="width:600px" required><br><br>
+		
+		<label for = "password" class = "font2">Password</label><br>
+		<input type = "password" id="password" name="password"  style="width:600px" pattern  = "[a-zA-Z0-9#%&$^*!@]{5,10}" required><br><br>
+		
+		<label for = "re-password"  class = "font2">Re-enter password</label><br>
+		<input type = "password" id="re-password" name="re-password"   style="width:600px" pattern  = "[a-zA-Z0-9#%&$^*!@]{5,10}" required><br><br>
+		
+		<input type  =  "checkbox" id = "policy" name = "policy" onclick =  "enableButton()" ><big><font color = "#f2f2f2">Accept privacy policy and terms </font></big><br><br>
+		
+		<a ><input type = "submit" id = "btn1" name="btn1" value = "Register Now" disabled  ></a>
+		
+		
+	</form>
+
+</div>
+		<footer>
+		<div>
+	
+		<img  class="fblogo" src="Images/fb logo.png">
+		
+		<pre>
+		
+			<p class="design">Designed and Developed by:Madhuwanthi Thathsarani                                          PVR Cinemas 2020</p>
+		</pre>
+		<hr>
+			<center><img class="social" src="Images/PinClipart.com_media-clip-arts_5548929.png"></center>
+		
+		</div>
+		</footer>
+		
+		
+	</body>
+</html>

@@ -1,0 +1,141 @@
+<html>
+	<head>
+		<title>Online Movie Ticket Booking System</title>
+		<link rel="stylesheet" type="text/css" href="Styles/Home.css">
+		<link rel="stylesheet" type="text/css"  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script src="js/Food.js"></script>                                                                                                                                               
+	<style>
+		 body 
+		 {
+			background-image: url("Images/Background1.jpg");
+			background-attachment:fixed;
+			background-repeat:no-repeat;
+			background-size:1380px 650px;
+			font-family:Arial,Helvitica,sans-serif;
+			animation:breath 8s linear infinite;
+		}
+		
+		 .h1
+		{
+		 text-decoration: underline; 
+        }
+		
+		.btton 
+		{
+		  border: none;
+		  color: white;
+		  padding: 14px 40px;
+		  text-align: center;
+		  text-decoration: none;
+		  display: inline-block;
+		  font-size: 20px;
+		  margin: 4px 2px;
+		  cursor: pointer;
+		  border-radius: 12px;
+		}
+		
+		.btton:hover {background-color: #ff4000;} 
+		.btton {background-color:  #ff8000;}
+		
+		.button1 {
+			  background-color: red; 
+			  border: none;
+			  color: white;
+			  padding: 15px 32px;
+			  text-align: center;
+			  text-decoration: none;
+			  font-size: 20px;
+			  display: inline-block;
+			  font-size: 20px;
+			  border-radius: 12px;
+			  margin-left:10px;
+           }
+		 .button1:hover {background-color: #ffd633;} 
+		 .button1: {background-color:  #ff8000;}
+	  
+    </style>
+		
+	
+			  
+		
+	</head>
+	
+	<body>	
+		<div id="nav">
+
+			<div class="sidebar">
+			<img class="logo" src="Images/Untitled-1.png">
+			<a id="nav1" id="active" href="Action.html"><i class="fa fa-fw fa-food"></i>Action</a>
+			<a id="nav1" id="nav1 "href="Adventure.html"><i class="fa fa-fw fa-food"></i>Adventure</a>
+			<a id="nav1" href="Animated.html"><i class="fa fa-fw fa-food"></i>Animated</a>
+			<a id="nav1" href="Comedy.html"><i class="fa fa-fw fa-food"></i>Comedy</a>
+			
+		</div>
+													
+		<div>
+		<div class="navbar">
+			<a class="active1" id="active" href="Home.html"><i class="fa fa-fw fa-home"></i>Home</a>
+			<a class="active1" href="Contact.html"><i class="fa fa-fw fa-envelope"></i>Contact</a>
+			<a class="active1" href="About.html"><i class="fa fa-fw fa-user"></i>About</a>
+			<a class="active1" href="Service.html"><i class="fa fa-fw fa-wrench"></i>Services</a>
+		<div class="search-container">
+			<input type="text" placeholder="Search.." name="search">
+			<button type="submit"><i class="fa fa-search"></i></button>
+			<a href="Profile.html"><img class="profileI" src="Images/PngItem_786293.png"></a>
+		</div>	
+		</div>
+		</div>
+		<div id="content">
+		<br/><br/><br/><br/>
+		<hr/>
+		
+		</div>
+		</div>
+		
+		<center><h1  class="h1" style="color:#ffb3b3">Now Showing!!!</h1></center>
+		
+		<center> 
+			<button class="btton" type="button" id="button1" onclick="loadData('button1')">Action</button>
+			<button class="btton" type="button" id="button2" onclick="loadData('button2')">Adventure</button>
+			<button class="btton" type="button" id="button3" onclick="loadData('button3');myFuction()">Animated</button>
+			<button class="btton" type="button" id="button4" onclick="loadData('button4')"> Comedy</button>
+			<button class="btton" type="button" id="button5" onclick="loadData('button5')">Coming Soon </button>
+        </center></br>
+		<img id="img1" style="margin-top:-350px;margin-right:900px" src="">
+		
+        <center><h1  class="h1" style="color:#ffb3b3"></h1></center> 
+	    <p id="demo"></p>
+		<button  class="button1" onclick="myFunction()">Book </button>
+		
+	     
+		     
+		 
+	    
+			 
+	     
+		
+		 
+		 
+		
+		
+		
+		
+		<footer>
+		<div>
+	
+		<img  class="fblogo" src="Images/fb logo.png">
+		
+		<pre>
+		
+			<p class="design">Designed and Developed by:Madhuwanthi Thathsarani                                         PVR Cinemas 2020</p>
+		</pre>
+		<hr>
+		 
+			<center><img class="social" src="Images/PinClipart.com_media-clip-arts_5548929.png"></center>
+		
+		</div>
+		</footer>
+		
+		
+	</body>
+</html>
